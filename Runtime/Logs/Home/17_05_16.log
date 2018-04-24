@@ -1,0 +1,44 @@
+[ 2017-05-16T13:11:10+08:00 ] ::1 /zscs/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027001s ]
+
+[ 2017-05-16T13:11:10+08:00 ] ::1 /zscs/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.056003s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.056003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.385022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.385022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022002s ]
+
+[ 2017-05-16T13:11:11+08:00 ] ::1 /zscs/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-16T13:11:11+08:00 ] ::1 /zscs/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

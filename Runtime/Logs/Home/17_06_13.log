@@ -1,0 +1,1401 @@
+[ 2017-06-13T15:51:30+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.195011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043002s ]
+
+[ 2017-06-13T15:51:31+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.023001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.023001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.532030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.532030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.049003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036002s ]
+
+[ 2017-06-13T15:51:31+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-13T15:51:33+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T15:51:47+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-13T15:51:49+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.1560s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0000s ]
+
+[ 2017-06-13T15:51:51+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0000s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.5300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.424023s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.424023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-13T15:51:51+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-13T15:51:51+08:00 ] ::1 /ttxw/Home/Login/verify_c.html?0.8276923332294528
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-13T15:51:51+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-13T15:51:52+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.2425s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0025s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0000s ]
+
+[ 2017-06-13T15:52:51+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+
+[ 2017-06-13T15:52:53+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0300s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T15:52:53+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T15:52:54+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '4' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '4' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T15:56:27+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T15:56:28+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T15:56:28+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T15:56:31+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '4' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '4' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T15:56:32+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '5' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '3' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:10:27+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:10:28+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:10:28+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:10:33+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:12:13+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:12:14+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:12:14+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-13T16:12:30+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:12:31+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-13T16:12:31+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:13:56+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:13:57+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:13:57+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:14:00+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:14:45+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:14:46+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:14:46+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:15:16+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-13T16:15:49+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:15:49+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:15:49+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:16:22+08:00 ] ::1 /ttxw/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:16:46+08:00 ] ::1 /ttxw/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = 1 ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:16:55+08:00 ] ::1 /ttxw/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = 5 ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '3' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:17:17+08:00 ] ::1 /ttxw/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = 1 ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:17:36+08:00 ] ::1 /ttxw/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = 2 ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:19:07+08:00 ] ::1 /ttxw/AppInterface/getNewsInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '' AND `news_id` = 2 ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:22:30+08:00 ] ::1 /ttxw/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = 1 ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:24:01+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:24:02+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:24:02+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:24:05+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = 'null' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:28:09+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:28:10+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:28:10+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:28:17+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '4' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '4' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:28:56+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:28:57+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:28:58+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:29:28+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:29:29+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:29:29+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:29:31+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:29:31+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:40:35+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:40:36+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:57:41+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:57:42+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:57:42+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:57:44+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:58:09+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T16:58:10+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T16:58:10+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:00:46+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:00:47+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:00:47+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:00:49+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:01:07+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:01:18+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '7' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:01:24+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '5' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '3' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:01:24+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '4' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '4' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:01:25+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:01:50+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '3' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '3' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:01:59+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:03:31+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:03:32+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:03:32+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:03:34+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:03:42+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '4' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '4' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:03:42+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '5' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '3' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:03:44+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:04:42+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:04:43+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:04:43+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:04:45+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '5' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '3' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:04:45+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '4' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '4' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:04:46+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:11:05+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:11:06+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:11:06+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:11:10+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '4' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '4' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:11:11+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '5' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '3' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:11:16+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:13:33+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:13:39+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '1' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:13:45+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:17:26+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:17:27+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:17:27+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:17:30+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '8' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:20:54+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-13T17:21:02+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-13T17:21:07+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-13T17:21:16+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T17:21:28+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T17:22:01+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+
+[ 2017-06-13T17:22:02+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '1' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '2' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '7' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '8' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:22:02+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '2' ORDER BY rand() LIMIT 10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '5' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:22:04+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `column_id` = '4' ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '4' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0010s ]
+
+[ 2017-06-13T17:22:09+08:00 ] 192.168.155.2 /ttxw/Home/AppInterface/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` LEFT JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE `news_id` = '6' ORDER BY rand() LIMIT 10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_comment` LEFT JOIN ttxw_user ON ttxw_user.user_id = ttxw_user.user_id  WHERE `news_id` = '6' ORDER BY ttxw_comment.comment_date  [ RunTime:0.0000s ]
+

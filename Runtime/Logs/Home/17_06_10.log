@@ -1,0 +1,2179 @@
+[ 2017-06-10T09:09:35+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-06-10T09:09:35+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.016001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:09:35+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:09:36+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:09:46+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-10T09:09:46+08:00 ] ::1 /ttxw/Home/Login/verify_c.html?0.6906787912991559
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:09:47+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-10T09:09:47+08:00 ] ::1 /ttxw/Home/Login/verify_c.html?0.30020570659485957
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:09:48+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-10T09:09:48+08:00 ] ::1 /ttxw/Home/Login/verify_c.html?0.10726755802809906
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:09:58+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-10T09:09:58+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0000s ]
+
+[ 2017-06-10T09:09:59+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0000s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:09:59+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-06-10T09:09:59+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0325s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0025s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0000s ]
+
+[ 2017-06-10T09:11:19+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_sysuser.sysu_account account,ttxw_sysuser.sysu_id sid,ttxw_sysuser.sysu_pwd sysu_pwd,ttxw_sysuser.sysu_photo sphoto,ttxw_sysuser.comment comment,ttxw_sysuser.sysu_date sdate,ttxw_role.role_name role_name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_sysuser.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin'  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 114 行.
+NOTIC: [8] Undefined index: name G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 124 行.
+NOTIC: [8] Undefined index: email G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 130 行.
+NOTIC: [8] Undefined index: phone G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 137 行.
+NOTIC: [8] Undefined variable: info G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 143 行.
+NOTIC: [8] Undefined index: id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:11:23+08:00 ] ::1 /ttxw/index.php/Home/User/User_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0375s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_user` LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sysu_id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 75 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 90 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 94 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 100 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:11:25+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 92 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 96 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 102 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:23:00+08:00 ] ::1 /ttxw/index.php/Home/User/User_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_user` LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sysu_id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 75 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 90 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 94 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 100 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:23:04+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 92 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 96 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 102 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:23:04+08:00 ] ::1 /ttxw/index.php/Home/Column/Column_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_column` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_column` LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:23:05+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:23:05+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_sysuser.sysu_account account,ttxw_sysuser.sysu_id sid,ttxw_sysuser.sysu_pwd sysu_pwd,ttxw_sysuser.sysu_photo sphoto,ttxw_sysuser.comment comment,ttxw_sysuser.sysu_date sdate,ttxw_role.role_name role_name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_sysuser.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 114 行.
+NOTIC: [8] Undefined index: name G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 124 行.
+NOTIC: [8] Undefined index: email G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 130 行.
+NOTIC: [8] Undefined index: phone G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 137 行.
+NOTIC: [8] Undefined variable: info G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 143 行.
+NOTIC: [8] Undefined index: id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:23:06+08:00 ] ::1 /ttxw/index.php/Home/Comment/Comment_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0420s ]
+NOTIC: [8] Undefined variable: total G:\xampp\htdocs\ttxw\Application\Home\Model\CommentModel.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT ttxw_comment.comment_content content,ttxw_news.news_title title,ttxw_user.user_name uname,ttxw_comment.comment_date comment_date,ttxw_comment.comment_id cid,ttxw_comment.del_flag del_flag FROM `ttxw_comment` INNER JOIN ttxw_news ON ttxw_comment.news_id = ttxw_news.news_id INNER JOIN ttxw_user ON ttxw_user.user_id = ttxw_comment.user_id  WHERE ttxw_comment.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:23:16+08:00 ] ::1 /ttxw/index.php/Home/User/User_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_user` LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: sysu_id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 75 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 90 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 94 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 100 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-10T09:23:21+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 92 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 96 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 102 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:23:41+08:00 ] ::1 /ttxw/index.php/Home/User/User_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_user` LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: sysu_id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 75 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 90 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 94 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 100 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\f88d90c904d7f7a11f497ef847b546a7.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:33:25+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 92 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 96 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 102 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:35:01+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:46:50+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:46:50+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:46:50+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0000s ]
+
+[ 2017-06-10T09:46:51+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:46:55+08:00 ] ::1 /ttxw/index.php/Home/Login/Login_logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:46:55+08:00 ] ::1 /ttxw/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:46:55+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:46:55+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:47:05+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-10T09:47:05+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0010s ]
+
+[ 2017-06-10T09:47:05+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'rmrb' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:47:05+08:00 ] ::1 /ttxw/Index/none.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:47:05+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:47:05+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0000s ]
+
+[ 2017-06-10T09:47:06+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = 'rmrb' AND ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = 'rmrb' AND ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:51:05+08:00 ] ::1 /ttxw/index.php/Home/Column/Column_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_column` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column` LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:51:08+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = 'rmrb' AND ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = 'rmrb' AND ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:51:15+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'rmrb' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:51:15+08:00 ] ::1 /ttxw/Index/none.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:51:15+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:51:16+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0010s ]
+
+[ 2017-06-10T09:51:17+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = 'rmrb' AND ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = 'rmrb' AND ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:57:55+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 30 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 30 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 30 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 30 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 35 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:58:20+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'rmrb' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:58:20+08:00 ] ::1 /ttxw/Index/none.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:58:20+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:58:20+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0010s ]
+
+[ 2017-06-10T09:58:21+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T09:59:38+08:00 ] ::1 /ttxw/News/News_operate.html?news_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_news` WHERE `news_id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: eidt G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 73 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: belong G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined index: nature G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined index: nature G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined index: nature G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined index: level G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined index: level G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-10T09:59:59+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'rmrb' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T09:59:59+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-10T10:00:00+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0000s ]
+
+[ 2017-06-10T10:01:22+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:01:24+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_sysuser.sysu_account account,ttxw_sysuser.sysu_id sid,ttxw_sysuser.sysu_pwd sysu_pwd,ttxw_sysuser.sysu_photo sphoto,ttxw_sysuser.comment comment,ttxw_sysuser.sysu_date sdate,ttxw_role.role_name role_name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_sysuser.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'rmrb'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 114 行.
+NOTIC: [8] Undefined index: name G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 124 行.
+NOTIC: [8] Undefined index: email G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 130 行.
+NOTIC: [8] Undefined index: phone G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 137 行.
+NOTIC: [8] Undefined variable: info G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 143 行.
+NOTIC: [8] Undefined index: id G:\xampp\htdocs\ttxw\Runtime\Cache\Home\a04e81724fe3add932493fed6968e52a.php 第 166 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:01:31+08:00 ] ::1 /ttxw/index.php/Home/Comment/Comment_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: total G:\xampp\htdocs\ttxw\Application\Home\Model\CommentModel.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0040s ]
+SQL: SELECT ttxw_comment.comment_content content,ttxw_news.news_title title,ttxw_user.user_name uname,ttxw_comment.comment_date comment_date,ttxw_comment.comment_id cid,ttxw_comment.del_flag del_flag FROM `ttxw_comment` INNER JOIN ttxw_news ON ttxw_comment.news_id = ttxw_news.news_id INNER JOIN ttxw_user ON ttxw_user.user_id = ttxw_comment.user_id  WHERE ttxw_comment.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T10:01:34+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:01:36+08:00 ] ::1 /ttxw/index.php/Home/Column/Column_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_column` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_column` LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:07:52+08:00 ] ::1 /ttxw/News/News_index.html?content=&column=&sysu=6&del_flag=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '0' LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:08:06+08:00 ] ::1 /ttxw/News/News_index.html?del_flag=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '1' LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:08:07+08:00 ] ::1 /ttxw/News/News_index.html?del_flag=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '0' LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T10:08:12+08:00 ] ::1 /ttxw/News/News_delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: UPDATE `ttxw_news` SET `del_flag`='1' WHERE `news_id` = 1 [ RunTime:0.0670s ]
+
+[ 2017-06-10T10:08:12+08:00 ] ::1 /ttxw/News/News_index.html?del_flag=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '0' LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T10:08:13+08:00 ] ::1 /ttxw/News/News_index.html?del_flag=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '1' LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:08:15+08:00 ] ::1 /ttxw/News/News_delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: UPDATE `ttxw_news` SET `del_flag`='0' WHERE `news_id` = 1 [ RunTime:0.0590s ]
+
+[ 2017-06-10T10:08:15+08:00 ] ::1 /ttxw/News/News_index.html?del_flag=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '1' LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:08:17+08:00 ] ::1 /ttxw/News/News_index.html?del_flag=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'rmrb'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content,ttxw_news.del_flag del_flag FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.sysu_id = '2' AND ttxw_news.del_flag = '0' LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: content G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:30:25+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T10:30:25+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:30:25+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:30:25+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:30:32+08:00 ] ::1 /ttxw/index.php/Home/Comment/Comment_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = null  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 G:\xampp\htdocs\ttxw\Application\Home\Controller\CommentController.class.php 第 32 行.
+NOTIC: [8] Undefined offset: 0 G:\xampp\htdocs\ttxw\Application\Home\Controller\CommentController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: total G:\xampp\htdocs\ttxw\Application\Home\Model\CommentModel.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `ttxw_comment` [ RunTime:0.0010s ]
+SQL: SELECT ttxw_comment.comment_content content,ttxw_news.news_title title,ttxw_user.user_name uname,ttxw_comment.comment_date comment_date,ttxw_comment.comment_id cid,ttxw_comment.del_flag del_flag FROM `ttxw_comment` INNER JOIN ttxw_news ON ttxw_comment.news_id = ttxw_news.news_id INNER JOIN ttxw_user ON ttxw_user.user_id = ttxw_comment.user_id  WHERE ttxw_news.sysu_id = null AND ttxw_comment.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:31:04+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:31:04+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T10:31:04+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T10:31:04+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:31:10+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-10T10:31:10+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0000s ]
+
+[ 2017-06-10T10:31:10+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:31:10+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T10:31:11+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0010s ]
+
+[ 2017-06-10T10:31:43+08:00 ] ::1 /ttxw/index.php/Home/SysUser/SysUser_manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `role_id` = 2 LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 92 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 96 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 102 行.
+NOTIC: [8] Undefined variable: userInfo G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b79dcc1c18fa75f62e47004c6590610c.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T10:43:46+08:00 ] ::1 /ttxw/index.php/Home/Column/Column_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_column` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_column` LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T16:45:23+08:00 ] ::1 /ttxw/Home/ColumnInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-06-10T16:45:23+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.016001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T16:45:24+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T16:45:24+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-10T16:45:36+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-10T16:45:36+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0010s ]
+
+[ 2017-06-10T16:45:36+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name,ttxw_sysuser.sysu_photo photo FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T16:45:36+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T16:45:37+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0710s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0060s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 8  [ RunTime:0.0000s ]
+
+[ 2017-06-10T16:46:27+08:00 ] ::1 /ttxw/ColumnInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_column` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_column` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-06-10T16:47:07+08:00 ] ::1 /ttxw/ColumnInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-10T16:47:34+08:00 ] ::1 /ttxw/ColumnInterface/getColumn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_column` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttxw_column` LIMIT 0,3   [ RunTime:0.0000s ]
+
+[ 2017-06-10T17:27:32+08:00 ] ::1 /ttxw/ColumnInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+ERR: 无法加载控制器:ColumnInterface
+
+[ 2017-06-10T17:27:37+08:00 ] ::1 /ttxw/APPInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:APPInterface
+
+[ 2017-06-10T17:27:47+08:00 ] ::1 /ttxw/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:AppInterface
+
+[ 2017-06-10T17:28:01+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AppInterface
+
+[ 2017-06-10T17:28:10+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:AppInterface
+
+[ 2017-06-10T17:28:27+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:AppInterface
+
+[ 2017-06-10T17:29:28+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:AppInterface
+
+[ 2017-06-10T17:29:53+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0620s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by rand() )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ttxw_news` WHERE ( del_flag = 0 order by rand() ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by rand() )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ttxw_news` WHERE ( del_flag = 0 order by rand() ) 
+
+[ 2017-06-10T17:47:02+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 3   [ RunTime:0.1250s ]
+
+[ 2017-06-10T17:47:04+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 3   [ RunTime:0.0020s ]
+
+[ 2017-06-10T17:47:05+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 3   [ RunTime:0.0010s ]
+
+[ 2017-06-10T17:47:06+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 3   [ RunTime:0.0020s ]
+
+[ 2017-06-10T17:47:06+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 3   [ RunTime:0.0030s ]
+
+[ 2017-06-10T17:47:07+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 3   [ RunTime:0.0020s ]
+
+[ 2017-06-10T22:59:39+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.102006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.4290s ]
+NOTIC: [8] Undefined variable: map G:\xampp\htdocs\ttxw\Application\Home\Controller\AppInterfaceController.class.php 第 23 行.
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 10   [ RunTime:0.1390s ]
+
+[ 2017-06-10T22:59:50+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: map G:\xampp\htdocs\ttxw\Application\Home\Controller\AppInterfaceController.class.php 第 23 行.
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-10T22:59:51+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: map G:\xampp\htdocs\ttxw\Application\Home\Controller\AppInterfaceController.class.php 第 23 行.
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-10T22:59:52+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: map G:\xampp\htdocs\ttxw\Application\Home\Controller\AppInterfaceController.class.php 第 23 行.
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-10T22:59:52+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: map G:\xampp\htdocs\ttxw\Application\Home\Controller\AppInterfaceController.class.php 第 23 行.
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-10T22:59:53+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: map G:\xampp\htdocs\ttxw\Application\Home\Controller\AppInterfaceController.class.php 第 23 行.
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-10T22:59:54+08:00 ] ::1 /ttxw/Home/AppInterface/getNewsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: map G:\xampp\htdocs\ttxw\Application\Home\Controller\AppInterfaceController.class.php 第 23 行.
+SQL: SELECT * FROM `ttxw_news` ORDER BY rand() LIMIT 10   [ RunTime:0.0020s ]
+
+[ 2017-06-10T23:43:55+08:00 ] ::1 /ttxw/Home/AppInterface/loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.2030s ]
+SQL: SELECT * FROM `ttxw_user` WHERE `user_account` = '' AND `user_pwd` = '67a74306b06d0c01624fe0d0249a570f4d093747'  [ RunTime:0.1220s ]
+

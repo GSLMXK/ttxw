@@ -1,0 +1,289 @@
+[ 2017-05-26T13:22:28+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.103006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+
+[ 2017-05-26T13:22:28+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.029002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.029002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.246014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.246014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025002s ]
+
+[ 2017-05-26T13:22:29+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T13:22:29+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T14:49:30+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.099006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026002s ]
+
+[ 2017-05-26T14:49:30+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.028001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.028001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.233013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025001s ]
+
+[ 2017-05-26T14:49:30+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T14:49:31+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-26T14:55:12+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-05-26T14:55:13+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.1560s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0120s ]
+
+[ 2017-05-26T14:55:13+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_user` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name`,`sex` FROM `ttxw_user` LIMIT 1  
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name`,`sex` FROM `ttxw_user` LIMIT 1  
+
+[ 2017-05-26T15:15:40+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'account' in 'where clause'
+ [ SQL语句 ] : SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE `account` = 'admin' LIMIT 1  
+ERR: 1054:Unknown column 'account' in 'where clause'
+ [ SQL语句 ] : SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE `account` = 'admin' LIMIT 1  
+
+[ 2017-05-26T15:16:04+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T15:16:04+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T15:16:04+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `menu_id`,`name`,`url`,`sort`,`icon` FROM `ttxw_menu` ORDER BY sort asc 
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `menu_id`,`name`,`url`,`sort`,`icon` FROM `ttxw_menu` ORDER BY sort asc 
+
+[ 2017-05-26T15:38:59+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T15:38:59+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-26T15:39:00+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'url' in 'field list'
+ [ SQL语句 ] : SELECT `menu_id`,`menu_name`,`url`,`sort`,`icon` FROM `ttxw_menu` ORDER BY sort asc 
+ERR: 1054:Unknown column 'url' in 'field list'
+ [ SQL语句 ] : SELECT `menu_id`,`menu_name`,`url`,`sort`,`icon` FROM `ttxw_menu` ORDER BY sort asc 
+
+[ 2017-05-26T20:43:51+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.089005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-05-26T20:43:52+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.028002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.028002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.340019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.342019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026002s ]
+
+[ 2017-05-26T20:43:52+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-26T20:43:52+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+

@@ -1,0 +1,2808 @@
+[ 2017-06-02T11:23:36+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-06-02T11:23:37+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.033002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.033002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.368021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.368021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-06-02T11:23:37+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:23:38+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:23:46+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-02T11:23:46+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.1596s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0010s ]
+
+[ 2017-06-02T11:23:47+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0830s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.1390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.033002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.033002s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:23:47+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:23:47+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0610s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0160s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:23:49+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0750s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:23:51+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:24:12+08:00 ] ::1 /ttxw/News/News_operate.html?news_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: scid G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 50 行.
+ERR: Think\Model:modify_news方法不存在！
+
+[ 2017-06-02T11:24:42+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:43:29+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-02T11:43:29+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:43:29+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T11:43:31+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:43:32+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:19:45+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-06-02T15:19:45+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.014001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-06-02T15:19:45+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:19:46+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:19:46+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:19:55+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-02T15:19:57+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.3200s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.1200s ]
+
+[ 2017-06-02T15:19:57+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:19:57+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:19:57+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T15:20:05+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:20:07+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:20:08+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:20:49+08:00 ] ::1 /ttxw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0000s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:20:49+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:20:51+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0010s ]
+
+[ 2017-06-02T18:40:14+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T18:40:14+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T18:40:15+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T18:40:15+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T18:40:23+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-02T18:40:23+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0000s ]
+
+[ 2017-06-02T18:40:23+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T18:40:23+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T18:40:24+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T18:40:26+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T18:40:27+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T18:40:50+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T18:40:50+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T18:40:50+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T18:40:51+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T18:40:52+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T18:44:14+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T18:44:14+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T18:44:15+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0030s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T18:44:16+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T18:44:17+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T18:44:22+08:00 ] ::1 /ttxw/News/News_addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ttxw_news` (`news_content`,`news_title`,`column_id`,`sysu_id`,`news_date`,`del_flag`) VALUES ('&lt;p&gt;阿萨德发射点发&lt;/p&gt;','a\'s\'d\'f','1','1','2017-06-02','0') [ RunTime:0.1080s ]
+
+[ 2017-06-02T18:44:22+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T19:00:22+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:00:22+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:00:23+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T19:00:24+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T19:03:32+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:03:32+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T19:03:33+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T19:03:33+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:35:56+08:00 ] ::1 /ttxw/News/News_operate.html?news_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: scid G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 50 行.
+ERR: Think\Model:modify_news方法不存在！
+
+[ 2017-06-02T19:41:41+08:00 ] ::1 /ttxw/News/News_operate.html?news_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: scid G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 50 行.
+ERR: Think\Model:modify_news方法不存在！
+
+[ 2017-06-02T19:41:53+08:00 ] ::1 /ttxw/News/News_operate.html?news_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: scid G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 50 行.
+ERR: Think\Model:modify_news方法不存在！
+
+[ 2017-06-02T19:41:56+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:42:13+08:00 ] ::1 /ttxw/News/News_addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ttxw_news` (`news_content`,`news_title`,`column_id`,`sysu_id`,`news_date`,`del_flag`) VALUES ('&lt;p&gt;&amp;lt;/br&amp;gt;&lt;/p&gt;','asdf','5',NULL,'2017-06-02','0') [ RunTime:0.0920s ]
+
+[ 2017-06-02T19:42:14+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:46:58+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:46:58+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T19:46:58+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:46:58+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T19:47:06+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-02T19:47:06+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0010s ]
+
+[ 2017-06-02T19:47:06+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:47:06+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T19:47:08+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0070s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T19:47:10+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: listRow G:\xampp\htdocs\ttxw\Application\Home\Model\NewsModel.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [4096] Object of class Think\Page could not be converted to string G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-02T20:12:28+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0040s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:12:29+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:12:32+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0030s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0040s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T20:12:33+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-02T20:12:37+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:40:14+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:40:14+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:40:15+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T20:40:16+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:40:17+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:41:48+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:41:48+08:00 ] ::1 /ttxw/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:41:48+08:00 ] ::1 /ttxw/Home/Login/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:41:48+08:00 ] ::1 /ttxw/Public/static/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:41:57+08:00 ] ::1 /ttxw/Login/check_verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id G:\xampp\htdocs\ttxw\Application\Home\Controller\LoginController.class.php 第 49 行.
+
+[ 2017-06-02T20:41:58+08:00 ] ::1 /ttxw/Login/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE `sysu_account` = 'admin' AND `sysu_pwd` = '10470c3b4b1fed12c3baac014be15fac67c6e815'  [ RunTime:0.0010s ]
+
+[ 2017-06-02T20:41:58+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:41:58+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:41:58+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T20:42:00+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:43:07+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:43:07+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:43:07+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T20:43:08+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:43:18+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:43:25+08:00 ] ::1 /ttxw/News/News_addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: INSERT INTO `ttxw_news` (`news_content`,`news_title`,`column_id`,`sysu_id`,`news_date`,`del_flag`) VALUES ('&lt;p&gt;asdfsadfasdfasdf&lt;/p&gt;','aasdfsadf','4','1','2017-06-02','0') [ RunTime:0.2070s ]
+
+[ 2017-06-02T20:43:25+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:43:30+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:43:30+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-02T20:43:31+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T20:43:38+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-02T20:51:25+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:51:25+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:51:26+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T20:51:27+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:52:02+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:52:02+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:52:03+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0010s ]
+
+[ 2017-06-02T20:52:04+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: listRow G:\xampp\htdocs\ttxw\Application\Home\Model\NewsModel.class.php 第 26 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\ttxw\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:52:08+08:00 ] ::1 /ttxw/News/News_operate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 21 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 22 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 23 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 31 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 63 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 70 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 72 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 74 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 83 行.
+NOTIC: [8] Undefined variable: data G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 85 行.
+NOTIC: [8] Undefined variable: page G:\xampp\htdocs\ttxw\Runtime\Cache\Home\54152da92038ae91e4d28e778cb2c9a1.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:52:15+08:00 ] ::1 /ttxw/News/News_addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ttxw_news` (`news_content`,`news_title`,`column_id`,`sysu_id`,`news_date`,`del_flag`) VALUES ('&lt;p&gt;撒的法撒旦法三大&lt;/p&gt;','阿阿斯蒂芬森','2','1','2017-06-02','0') [ RunTime:0.0760s ]
+
+[ 2017-06-02T20:52:15+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: listRow G:\xampp\htdocs\ttxw\Application\Home\Model\NewsModel.class.php 第 26 行.
+NOTIC: [2] Division by zero G:\xampp\htdocs\ttxw\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-02T20:53:28+08:00 ] ::1 /ttxw/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0040s ]
+SQL: SELECT ttxw_role.role_name role,ttxw_sysuser.sysu_name name FROM `ttxw_sysuser` INNER JOIN ttxw_role ON ttxw_role.role_id = ttxw_role.role_id  WHERE ttxw_sysuser.sysu_account = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: img G:\xampp\htdocs\ttxw\Runtime\Cache\Home\d4ea57e018bcaebd76bd4736ad257054.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:53:29+08:00 ] ::1 /ttxw/index.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:53:29+08:00 ] ::1 /ttxw/Home/Index/GetMenulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0040s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_menu` [ RunTime:0.0020s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`menu_url`,`menu_icon` FROM `ttxw_menu` WHERE `menu_fid` = 4  [ RunTime:0.0000s ]
+
+[ 2017-06-02T20:53:30+08:00 ] ::1 /ttxw/index.php/Home/News/News_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T20:53:32+08:00 ] ::1 /ttxw/News/News_index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:53:33+08:00 ] ::1 /ttxw/News/News_index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:55:53+08:00 ] ::1 /ttxw/News/News_operate.html?news_id=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: scid G:\xampp\htdocs\ttxw\Application\Home\Controller\NewsController.class.php 第 50 行.
+ERR: Think\Model:modify_news方法不存在！
+
+[ 2017-06-02T20:56:16+08:00 ] ::1 /ttxw/News/News_index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T20:56:17+08:00 ] ::1 /ttxw/News/News_index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T21:17:22+08:00 ] ::1 /ttxw/News/News_index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T21:17:24+08:00 ] ::1 /ttxw/News/News_index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T21:17:26+08:00 ] ::1 /ttxw/News/News_index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ttxw_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ttxw_news` WHERE ttxw_news.del_flag = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT ttxw_sysuser.sysu_name sname,ttxw_column.column_name cname,ttxw_news.news_id news_id,ttxw_news.news_date news_date,ttxw_news.news_title news_title,ttxw_news.news_content news_content FROM `ttxw_news` INNER JOIN ttxw_column ON ttxw_column.column_id = ttxw_news.column_id INNER JOIN ttxw_sysuser ON ttxw_sysuser.sysu_id = ttxw_news.sysu_id  WHERE ttxw_news.del_flag = 0 LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_column`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttxw_sysuser` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttxw_sysuser` WHERE ( role_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 73 行.
+NOTIC: [8] Undefined index: scid G:\xampp\htdocs\ttxw\Runtime\Cache\Home\b8d609440d25262dbcfca742a4699ab0.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

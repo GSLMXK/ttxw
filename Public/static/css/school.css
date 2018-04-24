@@ -1,0 +1,104 @@
+
+.layui-table {
+	text-align: center;
+}
+
+
+.school_content {
+	margin:10px auto;
+	width: 99%;
+}
+
+.sys_menu {
+	margin-bottom: 10px;
+}
+
+
+.sys_menu a {
+	background-color: #0099cc;
+ 	border-radius: 6px;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 6px;
+    padding: 3px 10px;
+}
+
+.layui-input-block {
+	margin-left: 37px;
+	width: 20%;
+	float: left;
+}
+
+
+
+.controll {
+	float: right;
+}
+
+.type_controll {
+    float: left;
+}
+
+
+.layui-icon {
+    font-size: 15px;
+    margin-right: 4px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*∑÷“≥…Ë÷√*/
+#page {
+	text-align: center;
+}
+
+#page a {
+    margin: 0 3px;
+}
+#page span,#page a {
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px 12px;
+    vertical-align: unset;
+}
+
+.current {
+    background: #09f;
+    border-color: #09f;
+    color: #fff;
+    margin: 0 2px;
+}
+
+#page a:hover{
+	background:#09F; 
+	color:#FFF; 
+	border-color:#09F;
+}
+
+
+.site-block {
+    padding:20px 0px;
+    border: 1px solid #eee;
+}
+
+.layui-form-label span{
+    color:red;
+    margin-right: 5px;
+}
+
+.numschool{
+    margin-left: 7px;
+    width: 40%;
+}
+
+.button_choice {
+     margin-bottom: 0px;
+     margin-top: 9px;
+     margin-left: 28px;
+}
+
+
